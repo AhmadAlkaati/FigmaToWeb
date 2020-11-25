@@ -1,0 +1,151 @@
+  /* General Styling */
+body{
+    margin:0;
+    padding:0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #021718;
+    font-family: 'Poppins', sans-serif;
+    margin:2rem;
+}
+
+
+/* Navbar Styling */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+
+    
+}
+nav  .content{
+    padding-right:10rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.8)
+}
+
+.D{
+     position: absolute; 
+     left: 2rem;
+     top: 0.28rem;
+     font-weight:800;
+     font-size:64px;
+     margin:0 0 0 4rem ;
+    }
+
+nav a{
+    font-size:24px;
+}
+
+nav .search-bar{
+    display:none;
+}
+
+
+nav input {
+    border: none;
+    background:ghostwhite;
+    height:60px;
+    width:250px;
+    padding-left:40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Main content styling */ 
+.main-content{
+    display: grid;
+    height:700px;
+    background:  url('images/background-shape.svg') no-repeat center top ;
+    background-size:cover;
+    background-color: rgb(255,160,70);
+   
+}
+.main-content .content{
+  width:90%;
+  min-height:700px;
+  display: grid;
+  grid-template-columns:40% 60%;
+  grid-template-rows: 80% 20%;
+  justify-self: center;
+  
+  
+}
+
+.intro{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom:1rem;
+    align-self: center;
+    
+}
+.intro h2{
+   font-weight:900;
+   font-size: 64px; 
+   margin:0;
+}
+.intro p{
+    font-size: 24px; 
+}
+.intro span{
+    display: block;
+    margin-top: 10px;
+}
+
+.intro button {
+    background-color:#01847F;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    width:124px;
+    height:42px;
+    font-size: 17px;
+    position: relative;
+    bottom: 0;
+    transition:  1s;
+
+}
+
+.intro button:hover{
+     bottom:5px;
+    
+}
+.images{
+    height: 500px;
+    margin-top: 5rem;
+    margin-right: 10rem;
+    justify-self: center;
+    
+}
+.images img{
+    position:absolute;
+}
+
+.images .girl-img{
+    z-index: 2;
+    transition: transform 1s;
+} 
+
+.images .girl-img:hover{
+    transform: rotate(-5deg);
+}
+
+.images .back-img{
+    transform: rotate(-5deg);
+}
+
+.icons {
+    align-self: start;
+    display: flex;
+    align-items: center;
+}
+
+.icons img{
+    margin: 0 10px 0 10px;
+}
