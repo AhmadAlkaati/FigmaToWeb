@@ -45,9 +45,28 @@ nav a{
 }
 
 nav .search-bar{
-    display:none;
+    height:2px;
+    overflow: hidden;
+    position: absolute;
+    top: 6rem;
+    right:5rem;
+    transition: all 0.3s linear;
 }
 
+nav .search-icon{
+    position:absolute;
+    top:2rem;
+    right:5rem;
+    z-index: 2;
+    
+}
+nav .close-icon{
+    position: absolute;
+     top: 2rem;
+     right:5rem;
+     opacity: 0;
+     transition: all 0.5s;
+}
 
 nav input {
     border: none;
@@ -57,7 +76,12 @@ nav input {
     padding-left:40px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    font-size: 20px;
 }
+
+nav input:focus{
+    outline: none;
+ }
 
 /* Main content styling */ 
 .main-content{
