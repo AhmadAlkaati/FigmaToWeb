@@ -86,7 +86,7 @@ nav input:focus{
 /* Main content styling */ 
 .main-content{
     display: grid;
-    height:700px;
+    height:800px;
     background:  url('images/background-shape.svg') no-repeat center top ;
     background-size:cover;
     background-color: rgb(255,160,70);
@@ -142,7 +142,7 @@ nav input:focus{
 }
 .images{
     height: 500px;
-    margin-top: 5rem;
+    margin-top: 8rem;
     margin-right: 10rem;
     justify-self: center;
     
